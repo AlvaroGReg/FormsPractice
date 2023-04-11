@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="leftimg">
+            <img src="https://picsum.photos/200" alt="Image left">
+        </div>
+        <div class="headertitle">
+            <h1>
+                FORMULARIO DE INSCRIPCIÓN
+            </h1>
+            <p>No pierda esta oportunidad única de dominar los lengaujes de programación con más futuro dentro del mundo de la informática</p>
+        </div>
+        <div class="rightimg">
+            <img src="https://picsum.photos/200" alt="Right img">
+        </div>
+    </header>
+
+    <main>
+        <form action="mailto: alvaro.gracia.reg@gmail.com" method="post">
+        <section class="datasection">
+            <div class="datarow row">
+                <div class="datacol col">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" maxlength="20" name="nombre">
+                </div>
+                <div class="datacol col">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" maxlength="40" name="apellidos">
+                </div>
+                <div class="datacol col">
+                    <label for="dni">DNI/NIE:</label>
+                    <input type="text" maxlength="10" name="dni">
+                </div>
+            </div>
+            <div class="datarow row">
+                <div class="datacol col">
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" maxlength="30" name="direccion">
+                </div>
+                <div class="datacol col">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" maxlength="12" name="telefono">
+                </div>
+            </div>
+            <div class="datarow row">
+                <div class="datacol col">
+                    <label for="poblacion">Población:</label>
+                    <input type="text" maxlength="20" name="poblacion">
+                </div>
+                <div class="datacol col">
+                    <label for="provincia">Provincia:</label>
+                    <input type="text" maxlength="12" name="provincia">
+                </div>
+                <div class="datacol">
+                    <label for="postal">Código postal:</label>
+                    <input type="text" maxlength="6" name="postal">
+                </div>
+            </div>
+            <div class="datarow row">
+                <div class="datacol col">
+                    <label for="mail">Mail:</label>
+                    <input type="text" maxlength="20" name="mail">
+                </div>
+            </div>
+        </section>
+
+        <section class="courseselection">
+            <div class="selectrow row">
+                <div class="selectcol col">
+                <p>Curso:</p>
+                <select name="curso" size="1">
+                    <option>
+                        Active X
+                    </option>
+                    <option>
+                        Delphi
+                    </option>
+                    <option selected>
+                        Java
+                    </option>
+                    <option>
+                        Visual C++
+                    </option>
+                    <option>
+                        Visual Basic
+                    </option>
+                </select>
+            </div>
+                <div class="selectcol col">
+                    <p>Horario:</p>
+                    <div class="radioselectors">
+                        <p>Mañana (9-12)</p>
+                        <input type="radio" checked name="HORARIO" value="M">
+                        <p>Tarde (17-20)</p>
+                        <input type="radio" checked name="HORARIO" value="T">
+                    </div>
+                </div>
+            </div>
+            <div class="selectrow row">
+                <p>Conocimientos de programación</p>
+                <select name="conocimientos" size="1">
+                    <option selected>Principiante</option>
+                    <option>Intermedio</option>
+                    <option>Avanzado</option>
+                </select>
+            </div>
+        </section>
+        <section class="soselection">
+            <div class="sotitle">
+                <p>Sistema operativo que utiliza habitualmente:</p>
+            </div>
+            <div class="sorow">
+                <ul>
+                    <li>
+                        <p>Windows</p>
+                        <input type="checkbox" name="windows" value="on">
+                    </li>
+                    <li>
+                        <p>Linux</p>
+                        <input type="checkbox" name="linux" value="on">
+                    </li>
+                    <li>
+                        <p>Ubuntu</p>
+                        <input type="checkbox" name="ubuntu" value="on">
+                    </li>
+                    <li>
+                        <p>IOS</p>
+                        <input type="checkbox" name="ios" value="on">
+                    </li>
+                </ul>
+            </div>
+            <div class="sorow row">
+                <label for="comentarios">Comentarios:</label>
+                <textarea name="comentarios" cols="30" rows="5"></textarea>
+            </div>
+        </section>
+        <section class="pricessection">
+            <p>El importe del curso es de 900€, siendo la duración del mismo 3 meses, el importe del mismo se hará efectivo al inicio del curso. No olvide incluir su E-MAIL para que le podamos informar puntualmente de las fechas de inicio.</p>
+            <div class="buttonsdiv">
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </section>
+    </form>
+    </main>
+
+    <footer>
+        <p>Para más información: </p>
+        <a href="https://alvarogreg.glitch.me/">Link</a>
+    </footer>
+</body>
+</html>

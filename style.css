@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    display: flex;
+}
+.sorow>ul{
+    display: flex;
+}
+.sorow>ul>li{
+    display: flex;
+}
